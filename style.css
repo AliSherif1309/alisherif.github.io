@@ -92,6 +92,12 @@ footer p {
     margin: 0;
 }
 
+/* Icons */
+i {
+    margin-right: 8px;
+    color: #007bff;
+}
+
 /* Links */
 a {
     color: #007bff;
