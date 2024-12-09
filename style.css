@@ -107,3 +107,63 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%; /* Adjust container width for smaller screens */
+    }
+
+    header h1 {
+        font-size: 2rem; /* Smaller font size for header */
+    }
+
+    nav ul li {
+        display: block; /* Stack navigation items vertically */
+        margin: 10px 0; /* Add margin for spacing */
+    }
+}
+
+.project-image {
+    width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 1rem; /* Space below image */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements */
+}
+
+form label {
+    margin: 0.5rem 0 0.2rem; /* Spacing for labels */
+}
+
+form input, form textarea {
+    padding: 0.5rem; /* Padding for inputs */
+    margin-bottom: 1rem; /* Space between inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners */
+}
+
+form button {
+    padding: 0.7rem; /* Padding for button */
+    background-color: #007bff; /* Button color */
+    color: #fff; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+}
+
+form button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+
+/* Testimonials */
+blockquote {
+    border-left: 4px solid #007bff; /* Left border for blockquote */
+    padding-left: 1rem; /* Padding for blockquote */
+    margin: 1rem 0; /* Margin for blockquote */
+    font-style: italic; /* Italic text */
+}

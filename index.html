@@ -48,9 +48,32 @@
         </div>
     </section>
 
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <blockquote>
+                <p>"Ali is a dedicated professional who consistently delivers high-quality work."</p>
+                <footer>- Colleague Name</footer>
+            </blockquote>
+            <blockquote>
+                <p>"His expertise in biomedical engineering is unmatched!"</p>
+                <footer>- Client Name</footer>
+            </blockquote>
+        </div>
+    </section>
+
     <section id="contact" class="section">
         <div class="container">
             <h2>Contact Me</h2>
+            <form action="your_form_processing_script.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
             <p><i class="fas fa-envelope"></i> Email: <a href="mailto:aliadel@example.com">aliadel@example.com</a></p>
             <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/aliadel" target="_blank">linkedin.com/in/aliadel</a></p>
             <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/alyadelsherif" target="_blank">github.com/alyadelsherif</a></p>
@@ -60,7 +83,23 @@
     <footer>
         <div class="container">
             <p>&copy; 2024 Ali Adel. All rights reserved.</p>
+            <p>
+                <a href="https://www.linkedin.com/in/aliadel" target="_blank">LinkedIn</a> |
+                <a href="https://github.com/alyadelsherif" target="_blank">GitHub</a>
+            </p>
         </div>
     </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav ul li a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
