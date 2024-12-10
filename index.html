@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biomedical Engineering Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container navbar-content">
-            <div class="navbar-brand">Aly Sherif Protfolio</div>
+            <div class="navbar-brand">Biomedical Engineering Portfolio</div>
             <div class="navbar-menu">
                 <a href="#home">Home</a>
-                <a href="#projects">Projects</a>
+                <a href="#about">About Me</a>
+                <a href="#installations">Installations</a>
+                <a href="#troubleshooting">Troubleshooting</a>
                 <a href="#skills">Skills</a>
                 <a href="#contact">Contact</a>
             </div>
@@ -21,76 +23,102 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" style="text-align: justify; padding: 20px; max-width: 800px; margin: auto;">
-        <h1 class="section-title">Aly Sherif</h1>
-        <p>
-            I am Aly Sherif, a dedicated and detail-oriented Biomedical Engineer with a passion for healthcare technology and problem-solving. I graduated from Helwan University with a strong foundation in biomedical engineering and have since been committed to enhancing medical technology and optimizing technical support for advanced diagnostic systems.
-        </p>
-        <p>
-            Currently, I serve as a Field Service Engineer at Ali Al-Suwaidi Trading (AST) in Doha, Qatar, where I provide specialized support and maintenance for cutting-edge diagnostic machines, including the Liaison XL, Erytra Eflexis, and Panther ART systems. My responsibilities include installation, calibration, troubleshooting, and developing custom solutions to improve workflow and user experience.
-        </p>
-        <p>
-            With a focus on continuous learning, I also create applications to streamline processes, leveraging tools like AI-based technologies. My career journey includes diverse experiences such as internships in renowned organizations, where I gained hands-on expertise in maintaining medical equipment, quality control, and clinical engineering.
-        </p>
-        <p>
-            I am passionate about advancing healthcare solutions through innovation and collaboration, aiming to make impactful contributions to patient care and operational efficiency.
-        </p>
+    <section id="home" class="hero container">
+        <h1>Biomedical Engineering Solutions</h1>
+        <p>Specializing in Medical Equipment Installation, Calibration, and Advanced Troubleshooting</p>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="container">
-        <h2 class="section-title">Professional Projects</h2>
-        <div class="projects">
-            <div class="project-card">
-                <h3>Medical Equipment Installation</h3>
-                <p>Successful deployment of advanced MRI diagnostic equipment at Regional Medical Center</p>
-                <span class="project-category">Installation</span>
-                <div class="project-details">
-                    <div class="project-challenges">
-                        <h4>Challenges:</h4>
-                        <ul>
-                            <li>Complex equipment calibration</li>
-                            <li>Ensuring precise electromagnetic shielding</li>
-                            <li>Coordinating with hospital IT infrastructure</li>
-                        </ul>
+    <!-- About Me Section -->
+    <section id="about" class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="C:\Users\Aly Sherif\Downloads\Protfolio\alisherif.github.io\Ali.jpg" alt="Profile Picture" class="profile-pic">
+            </div>
+            <div class="about-text">
+                <h3>Professional Background</h3>
+                <p>I am a dedicated Biomedical Engineer with a passion for advancing medical technology and ensuring optimal performance of critical healthcare equipment. With [X] years of experience in medical device installation, maintenance, and troubleshooting, I bring a comprehensive approach to solving complex technical challenges in healthcare settings.</p>
+                
+                <h3>Education</h3>
+                <p>
+                    <strong>Degree:</strong> Bachelor of Biomedical Engineering<br>
+                    <strong>University:</strong> Helwan University<br>
+                    <strong>Graduation Year:</strong> 2021
+                </p>
+
+                <div class="cv-download">
+                    <a href="https://drive.google.com/file/d/1xfr3v8enW8ByHLRHhMkXUpeXiRo3tbzM/view?usp=drive_link" class="download-btn" download>
+                        <span>Download Full CV</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installations Section -->
+    <section id="installations" class="container">
+        <h2 class="section-title">Medical Equipment Installations</h2>
+        <div class="installations-grid">
+            <div class="installation-card">
+                <h3>MRI System Installation</h3>
+                <p>Comprehensive installation of advanced 3T MRI system at Regional Medical Center</p>
+                <ul>
+                    <li>Conducted precise equipment calibration</li>
+                    <li>Ensured electromagnetic shielding compliance</li>
+                    <li>Integrated with hospital's PACS system</li>
+                </ul>
+            </div>
+            <div class="installation-card">
+                <h3>CT Scanner Deployment</h3>
+                <p>Successful implementation of next-generation CT scanner in diagnostic imaging department</p>
+                <ul>
+                    <li>Performed initial system configuration</li>
+                    <li>Developed custom installation protocols</li>
+                    <li>Trained medical staff on equipment usage</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Troubleshooting Section -->
+    <section id="troubleshooting" class="container">
+        <h2 class="section-title">Advanced Troubleshooting</h2>
+        <div class="troubleshooting-grid">
+            <div class="troubleshooting-card">
+                <h3>Imaging System Performance Optimization</h3>
+                <div class="troubleshooting-details">
+                    <div class="problem">
+                        <h4>Problem</h4>
+                        <p>Intermittent signal interference in digital radiography equipment causing image quality degradation</p>
                     </div>
-                    <div class="project-solutions">
-                        <h4>Solutions:</h4>
-                        <ul>
-                            <li>Developed custom alignment protocols</li>
-                            <li>Implemented advanced calibration techniques</li>
-                            <li>Seamless integration with existing hospital systems</li>
-                        </ul>
+                    <div class="solution">
+                        <h4>Solution</h4>
+                        <p>Conducted comprehensive signal analysis, recalibrated imaging sensors, and developed custom driver update to resolve persistent interference issues</p>
                     </div>
                 </div>
             </div>
-            <div class="project-card">
-                <h3>Troubleshooting Biomedical Imaging System</h3>
-                <p>Resolved critical performance issues with digital radiography equipment</p>
-                <span class="project-category">Troubleshooting</span>
-                <div class="project-details">
-                    <div class="project-challenges">
-                        <h4>Challenges:</h4>
-                        <ul>
-                            <li>Intermittent signal interference</li>
-                            <li>Image resolution degradation</li>
-                            <li>Software compatibility issues</li>
-                        </ul>
+            <div class="troubleshooting-card">
+                <h3>Equipment Connectivity Resolution</h3>
+                <div class="troubleshooting-details">
+                    <div class="problem">
+                        <h4>Problem</h4>
+                        <p>Network compatibility issues preventing seamless integration of new medical diagnostic equipment</p>
                     </div>
-                    <div class="project-solutions">
-                        <h4>Solutions:</h4>
-                        <ul>
-                            <li>Conducted comprehensive signal analysis</li>
-                            <li>Recalibrated imaging sensors</li>
-                            <li>Developed custom driver update</li>
-                        </ul>
+                    <div class="solution">
+                        <h4>Solution</h4>
+                        <p>Implemented custom network configuration, developed middleware for system communication, and ensured HIPAA compliance during integration</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
+    <!-- Skills Section (Previous implementation) -->
     <section id="skills" class="container">
         <h2 class="section-title">Technical Skills</h2>
         <div class="skills">
@@ -102,7 +130,7 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact Section (Previous implementation) -->
     <section id="contact" class="container">
         <div class="contact-form">
             <h2 class="section-title">Contact Me</h2>
