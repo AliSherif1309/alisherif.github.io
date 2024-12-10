@@ -4,11 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aly Sherif - Biomedical Engineering Portfolio</title>
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,11 +12,11 @@
         <div class="container navbar-content">
             <div class="navbar-brand">Aly Sherif - Biomedical Engineering</div>
             <div class="navbar-menu">
-                <a href="#home"><i class="fas fa-home"></i> Home</a>
-                <a href="#about"><i class="fas fa-user"></i> About Me</a>
-                <a href="#installations"><i class="fas fa-briefcase"></i> Experience</a>
-                <a href="#troubleshooting"><i class="fas fa-cogs"></i> Skills</a>
-                <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#installations">Experience</a>
+                <a href="#troubleshooting">Skills</a>
+                <a href="#contact">Contact</a>
             </div>
         </div>
     </nav>
@@ -53,7 +48,11 @@
                 <div class="cv-download">
                     <a href="https://drive.google.com/file/d/1xfr3v8enW8ByHLRHhMkXUpeXiRo3tbzM/view?usp=drive_link" class="download-btn" download>
                         <span>Download Full CV</span>
-                        <i class="fas fa-download"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
                     </a>
                 </div>
             </div>
@@ -91,18 +90,31 @@
         <div class="troubleshooting-grid">
             <div class="troubleshooting-card">
                 <h3>Technical Skills</h3>
-                <ul>
-                    <li><i class="fas fa-code"></i> AI in App Development</li>
-                    <li><i class="fas fa-file-alt"></i> Microsoft Word</li>
-                    <li><i class="fas fa-handshake"></i> Purchasing Negotiation</li>
-                    <li><i class="fas fa-tools"></i> Medical Equipment Maintenance</li>
-                </ul>
+                <div class="troubleshooting-details">
+                    <div class="problem">
+                        <h4>Key Skills</h4>
+                        <ul>
+                            <li>AI in App Development</li>
+                            <li>Microsoft Word</li>
+                            <li>Purchasing Negotiation</li>
+                            <li>Medical Equipment Maintenance</li>
+                        </ul>
+                    </div>
+                    <div class="solution">
+                        <h4>Certifications</h4>
+                        <ul>
+                            <li>Procleix Panther FSE</li>
+                            <li>Erytra Eflexis System Service Engineer</li>
+                            <li>Liaison XL System Specialist</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="troubleshooting-card">
                 <h3>Languages</h3>
                 <ul>
-                    <li><i class="fas fa-globe"></i> English (Professional Working)</li>
-                    <li><i class="fas fa-globe"></i> Arabic (Native)</li>
+                    <li>English (Professional Working)</li>
+                    <li>Arabic (Native)</li>
                 </ul>
             </div>
         </div>
@@ -114,15 +126,15 @@
             <h2 class="section-title">Contact Me</h2>
             <form>
                 <div class="form-group">
-                    <label for="name"><i class="fas fa-user"></i> Name</label>
+                    <label for="name">Name</label>
                     <input type="text" id="name" class="form-control" placeholder="Your Name" required>
                 </div>
                 <div class="form-group">
-                    <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                    <label for="email">Email</label>
                     <input type="email" id="email" class="form-control" placeholder="your.email@example.com" required>
                 </div>
                 <div class="form-group">
-                    <label for="message"><i class="fas fa-comment-dots"></i> Message</label>
+                    <label for="message">Message</label>
                     <textarea id="message" class="form-control" rows="4" placeholder="Your message..." required></textarea>
                 </div>
                 <div class="form-action">
@@ -134,12 +146,7 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>© 2024 Aly Sherif - Biomedical Engineering Portfolio</p>
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/in/aly-adel-sherif/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/AliSherif1309" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="mailto:alysherif1309@gmail.com"><i class="fas fa-envelope"></i></a>
-        </div>
+        © 2024 Aly Sherif - Biomedical Engineering Portfolio
     </footer>
 </body>
 </html>
